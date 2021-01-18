@@ -1,0 +1,39 @@
+//Color variables
+
+$red: #b30000;
+$lightRed: #ff0000;
+$black: #010101;
+$darkTeal: #074a59;
+$elmGreen: #1D7373;
+$aquaMarine: #57face;
+$white: #ffffff;
+
+//Font variables
+
+@font-face {
+    font-family: 'Game of Thrones';
+    src: url("../assets/fonts/Game_of_thrones/Game\ of\ Thrones.ttf");
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    src: url("../assets/fonts/Nanum_Gothic/NanumGothic-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+//Font variables
+$GameOfThrones: 'Game of Thrones',
+serif,
+regular;
+
+$NanumGothic: 'Nanum Gothic',
+sans-serif,
+bold;
+
+$Roboto: 'Roboto',
+sans-serif,
+regular;

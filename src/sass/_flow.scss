@@ -1,0 +1,12 @@
+
+//Random animation behavior
+
+@for $i from 1 through 17 {
+	.fireflies:nth-child(#{$i}) {
+		animation: moveFireflies random(60) + s ease-in-out random(15) + s infinite,
+		flash random(60) + s ease random(15) + s infinite;
+		
+	 }
+	
+	 }
+ 

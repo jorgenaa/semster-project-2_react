@@ -1,0 +1,41 @@
+//Media queries mixin for mobile breakpoints
+
+@mixin media-max-991px {
+	@media (max-width: 991px) {
+		@content;
+	}
+}
+
+@mixin media-max-768px {
+	@media (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin tablet-only {
+	@media (max-width: 668px) {
+		@content;
+	}
+}
+
+@mixin phone-only {
+	@media (max-width: 454px) {
+		@content;
+	}
+}
+
+//Backgrounds
+
+@mixin backgroundBlur {
+	background-color: rgba(35, 140, 140, 0.2);
+	backdrop-filter: blur(7px);
+}
+
+@mixin backgroundBlur2 {
+	background-color: rgba(7, 74, 89, 0.5);
+	backdrop-filter: blur(7px);
+}
+
+@mixin backgroundOpacity {
+	background-color: rgba(7, 74, 89, 0.7);
+}
